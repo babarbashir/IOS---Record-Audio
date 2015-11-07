@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41B830A1BECB99300257996 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B83091BECB99300257996 /* PlaySoundViewController.swift */; };
+		C41B830C1BECC47800257996 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C41B830B1BECC47800257996 /* movie_quote.mp3 */; };
+		C41B830E1BEDD02F00257996 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B830D1BEDD02F00257996 /* RecordedAudio.swift */; };
 		C4D2C32C1BE2CDD400BA6316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2C32B1BE2CDD400BA6316 /* AppDelegate.swift */; };
 		C4D2C32E1BE2CDD400BA6316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2C32D1BE2CDD400BA6316 /* ViewController.swift */; };
 		C4D2C3311BE2CDD400BA6316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D2C32F1BE2CDD400BA6316 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C41B83091BECB99300257996 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		C41B830B1BECC47800257996 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		C41B830D1BEDD02F00257996 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		C4D2C3261BE2CDD400BA6316 /* voice_recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voice_recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D2C32A1BE2CDD400BA6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D2C32B1BE2CDD400BA6316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +85,9 @@
 			children = (
 				C4D2C32B1BE2CDD400BA6316 /* AppDelegate.swift */,
 				C4D2C32D1BE2CDD400BA6316 /* ViewController.swift */,
+				C41B830D1BEDD02F00257996 /* RecordedAudio.swift */,
 				C4D2C32F1BE2CDD400BA6316 /* Main.storyboard */,
+				C41B83091BECB99300257996 /* PlaySoundViewController.swift */,
 				C4D2C3321BE2CDD400BA6316 /* Images.xcassets */,
 				C4D2C3341BE2CDD400BA6316 /* LaunchScreen.xib */,
 				C4D2C3291BE2CDD400BA6316 /* Supporting Files */,
@@ -90,6 +98,7 @@
 		C4D2C3291BE2CDD400BA6316 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C41B830B1BECC47800257996 /* movie_quote.mp3 */,
 				C4D2C32A1BE2CDD400BA6316 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +165,7 @@
 		C4D2C31E1BE2CDD400BA6316 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = appstar;
 				TargetAttributes = {
@@ -194,6 +204,7 @@
 			files = (
 				C4D2C3311BE2CDD400BA6316 /* Main.storyboard in Resources */,
 				C4D2C3361BE2CDD400BA6316 /* LaunchScreen.xib in Resources */,
+				C41B830C1BECC47800257996 /* movie_quote.mp3 in Resources */,
 				C4D2C3331BE2CDD400BA6316 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41B830E1BEDD02F00257996 /* RecordedAudio.swift in Sources */,
 				C4D2C32E1BE2CDD400BA6316 /* ViewController.swift in Sources */,
+				C41B830A1BECB99300257996 /* PlaySoundViewController.swift in Sources */,
 				C4D2C32C1BE2CDD400BA6316 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +422,7 @@
 				C4D2C3471BE2CDD400BA6316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4D2C3481BE2CDD400BA6316 /* Build configuration list for PBXNativeTarget "voice_recorderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +431,7 @@
 				C4D2C34A1BE2CDD400BA6316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
